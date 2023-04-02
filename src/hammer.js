@@ -1,5 +1,5 @@
 import {callback as call} from 'chart.js/helpers';
-import Hammer from 'hammerjs';
+import Hammer from '@squadette/hammerjs';
 import {pan, zoom} from './core';
 import {getState} from './state';
 import {directionEnabled, getEnabledScalesByPoint, getModifierKey, keyNotPressed, keyPressed} from './utils';

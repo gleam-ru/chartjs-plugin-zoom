@@ -1,4 +1,4 @@
-import Hammer from 'hammerjs';
+import Hammer from '@squadette/hammerjs';
 import {addListeners, computeDragRect, removeListeners} from './handlers';
 import {startHammer, stopHammer} from './hammer';
 import {pan, zoom, resetZoom, zoomScale, getZoomLevel, getInitialScaleBounds, isZoomedOrPanned, zoomRect} from './core';
